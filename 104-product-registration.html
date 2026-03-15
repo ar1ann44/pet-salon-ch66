@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <title>Product Registration</title>
+</head>
+<body>
+    <section class="m-5">
+        <h1>product Registration</h1>
+
+        <form class="bg-light border p-3 mt-5 ">
+            <div class="mb-3">
+                <label class="form-lable">name</label>
+                <input class="form-control" type="text" name="productName" id="" placeholder="eggs">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-lable">Price</label>
+                <input class="form-control"type="number" name="productPrice" id="" placeholder="$10.55">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-lable">Category</label>
+                <select class="form-select" name="productCategory" id="">
+                    <option value="">select a category</option>
+                    <option value="fruits">fruits</option>
+                    <option value="vegetables">vegetables</option>
+                </select>
+            </div>
+
+            <div class="d-flex justify-content-end">
+                <button class="btn btn-secondary m-1" type="reset">reset</button>
+                <button onclick="registerProduct(event)" class="btn btn-primary m-1" type="submit">register</button>
+            </div>
+        </form>
+
+    </section>
+
+    <section class="m-4">
+        <h2>register products</h2>
+
+        <table class="table table-bordered">
+            <!--header-->
+            <tr>
+                <th>name</th>
+                <th>Price</th>
+                <th>category</th>
+            </tr>
+
+
+            <!--body-->
+            <tbody id="body">
+                <tr>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </section>
+
+    <script src="./scripts/104-product-registration.js"></script>
+
+
+</body>
+</html>

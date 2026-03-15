@@ -1,4 +1,4 @@
-// Crear mascotas (objetos)
+
 
 let pet1 = {
     name: "Dexter",
@@ -41,6 +41,43 @@ function displayPets(){
 
 displayPets();
 
+const petForm = document.querySelector("form"); 
+const body = document.getElementById("body");
+
+function registerPet(event) {
+
+    event.preventDefault();
+    console.log(event);
+
+    let name = petForm.elements["name"].value;
+    let breed = petForm.elements["breed"].value;
+    let age = petForm.elements["age"].value;
+    let gender = petForm.elements["gender"].value;
+    let service = petForm.elements["service"].value;
+
+console.log(`
+    name: ${name}
+    breed: ${breed}
+    age: ${age}
+    gender: ${gender}
+    service: ${service}
+
+`);
+
+const row = document.createElement("tr");
+
+row.innerHTML = `
+    <td> ${name} </td>
+    <td> ${breed} </td>
+    <td> ${age} </td>
+    <td> ${gender} </td>
+    <td> ${service} </td>
+
+`;
+
+body.appendChild(row);
+
+}
 
 
 

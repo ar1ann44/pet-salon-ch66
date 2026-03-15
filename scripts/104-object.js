@@ -38,3 +38,14 @@ console.log(students[1]);
 
 students[2].name 
 console.log(students[2].name);
+
+//constructor
+function Student(studentName, studentLastname, studentEmail){
+    this.name = studentLastname;
+    this.lastname = studentLastname;
+    this.email = studentEmail;
+}
+
+//create an object using the constructor
+let strudent4 = Student("kate", "frantz", "kate.franzt@sdgku.edu");
+
