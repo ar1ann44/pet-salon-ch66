@@ -72,8 +72,21 @@ row.innerHTML = `
     <td> ${age} </td>
     <td> ${gender} </td>
     <td> ${service} </td>
+    <td> <button class="btn btn-danger delete-btn"> DELETE </button> </td>
 
 `;
+
+// delete button
+row.querySelector(".delete-btn").addEventListener("click", function(){
+    let confirmation = confirm("Are you sure?");
+    
+    if(confirmation){
+        row.remove();
+
+    }
+
+});
+
 
 body.appendChild(row);
 

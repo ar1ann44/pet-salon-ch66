@@ -32,12 +32,36 @@
             </div>
         </div>
     </nav>
+
     <h1>Services</h1>
+
+    <form id="servicesForm" class="container mt-4">
+        <div class="mb-3">
+            <label for="serviceName" class="form-label">Service</label>
+            <input type="text" class="form-control" id="serviceName" placeholder="Enter service name">
+        </div>
+        <div class="mb-3">
+            <label for="serviceDescription" class="form-label">Service</label>
+            <input type="text" class="form-control" id="service" placeholder="Enter service description">
+        </div>
+        <div class="mb-3">
+            <label for="servicePrice" class="form-label">Price</label>
+            <input type="number" class="form-control" id="service" placeholder="Enter service price">
+        </div>
+        <button id="registerBTN" class="btn btn-primary">register</button>
+        <button type="reset" class="btn btn-secondary">reset</button>
+    </form>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+
+
+    <script src="https://code.jquery.com/jquery-4.0.0.js"
+        integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U=" crossorigin="anonymous"></script>
+
+    <script src="./scripts/services.js"></script>
 </body>
 
 </html>
