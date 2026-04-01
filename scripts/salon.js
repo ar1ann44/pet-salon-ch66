@@ -21,3 +21,11 @@ function displaySalonInfo(){
 
     document.getElementById("salonInfo").innerHTML = info;
 }
+
+
+$("#changeModeButton").click(function(){
+
+    // change the css class 
+    $("body").toggleClass("dark-mode");
+
+});

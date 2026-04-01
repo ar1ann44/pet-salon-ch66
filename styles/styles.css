@@ -1,0 +1,286 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FDF6EC;
+    color: #2E2E2E;
+}
+
+.navbar {
+    background-color: #2D6AA0 !important;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+    font-weight: bold;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #FFD7B5 !important;
+}
+
+.page-header {
+    background-color: #2D6AA0;
+    padding: 50px 0;
+    color: white;
+}
+
+.page-header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.page-header p {
+    margin: 0;
+}
+
+.content-area {
+    padding: 40px 0;
+}
+
+.card-box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.card-box h5 {
+    font-weight: bold;
+    color: #2D6AA0;
+    margin-bottom: 20px;
+}
+
+.card-box h6 {
+    font-weight: bold;
+    color: #2D6AA0;
+    margin-bottom: 10px;
+}
+
+.hero {
+    background-color: #2D6AA0;
+    padding: 80px 0;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.1rem;
+}
+
+.hero .btn-primary {
+    background-color: #E87830;
+    border-color: #E87830;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+
+.hero .btn-primary:hover {
+    background-color: #cf6a26;
+    border-color: #cf6a26;
+}
+
+.hero-img {
+    border-radius: 10px;
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+}
+
+.about-section {
+    background-color: white;
+}
+
+.about-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.info-item {
+    background-color: #F0E4D0;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+}
+
+.info-item span {
+    font-weight: bold;
+    color: #2D6AA0;
+}
+
+.stat-box {
+    background-color: #EAF2FB;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.stat-box .number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2D6AA0;
+}
+
+.stat-box .label {
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #888;
+}
+
+.services-section {
+    background-color: #F0E4D0;
+}
+
+section {
+    padding: 70px 0;
+}
+
+.service-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    height: 100%;
+}
+
+.service-card h5 {
+    font-weight: bold;
+    color: #2D6AA0;
+    margin-bottom: 5px;
+}
+
+.service-card p {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.service-price {
+    font-weight: bold;
+    color: #E87830;
+    font-size: 1.1rem;
+}
+
+.gallery-section {
+    background-color: white;
+}
+
+.gallery-section img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#petsList {
+    padding-left: 20px;
+    margin: 0;
+    font-size: 0.95rem;
+    color: #888;
+}
+
+#petsList li {
+    margin-bottom: 5px;
+}
+
+.table th {
+    background-color: #2D6AA0;
+    color: white;
+}
+
+#successAlert {
+    display: none;
+    background-color: #EAF2FB;
+    border: 2px solid #2D6AA0;
+    color: #2D6AA0;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+input.error {
+    border-color: red !important;
+}
+
+.salon-bar {
+    background-color: #EAF2FB;
+    border-top: 2px solid #cde0f5;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #2D6AA0;
+    font-weight: bold;
+}
+
+#salonInfo {
+    margin: 0;
+}
+
+footer {
+    background-color: #2D6AA0;
+    color: white;
+    padding: 30px 0;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #FFD7B5;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .copy {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+body.dark-mode {
+    background-color: #1A2744;
+    color: #F4F4FB;
+}
+
+body.dark-mode .card-box {
+    background-color: #23345A;
+}
+
+body.dark-mode .card-box h5,
+body.dark-mode .card-box h6 {
+    color: #F4F4FB;
+}
+
+body.dark-mode .form-control,
+body.dark-mode .form-select {
+    background-color: #1e2e50;
+    color: #F4F4FB;
+    border-color: #45ADFF;
+}
+
+body.dark-mode .form-control::placeholder {
+    color: #a0aec0;
+}
+
+body.dark-mode .table {
+    color: #F4F4FB;
+    border-color: #45ADFF;
+}
+
+body.dark-mode .table th,
+body.dark-mode .table td {
+    background-color: #23345A;
+    border-color: #2d4a7a;
+}
+
+body.dark-mode form.bg-light {
+    background-color: #1e2e50 !important;
+    border-color: #2d4a7a !important;
+}

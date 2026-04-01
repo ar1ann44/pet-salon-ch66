@@ -76,7 +76,6 @@ row.innerHTML = `
 
 `;
 
-// delete button
 row.querySelector(".delete-btn").addEventListener("click", function(){
     let confirmation = confirm("Are you sure?");
     
